@@ -3,7 +3,7 @@ module "org_audit_logs_project" {
   version                 = "~> 14.1"
   random_project_id       = true
   default_service_account = "deprivilege"
-  name                    = "central-audit-logging"
+  name                    = "central-audit-logging-v2"
   org_id                  = var.org_id
   billing_account         = var.billing_account_id
   folder_id               = 2988491520
@@ -11,7 +11,7 @@ module "org_audit_logs_project" {
 
   labels = {
     environment       = "production"
-    application_name  = "org-logging"
+    application_name  = "org-logging-v2"
     billing_code      = "1234"
     primary_contact   = "example1"
     secondary_contact = "example2"
@@ -33,7 +33,7 @@ module "billing_logs_project" {
 
   labels = {
     environment       = "production"
-    application_name  = "org-billing-logs"
+    application_name  = "org-billing-logs-v2"
     billing_code      = "1234"
     primary_contact   = "example1"
     secondary_contact = "example2"
