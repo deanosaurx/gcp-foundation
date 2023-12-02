@@ -1,7 +1,7 @@
 bootstrap_folder_name = "TFC-bootstrap"
 folders = {
   admin  = "kyndryl-admin"
-  dev    = "kyndryt-dev",
+  dev    = "kyndryl-dev",
   stg    = "kyndryl-stg",
   prd    = "kyndryl-prd",
   shared = "kyndryl-shared-services"
