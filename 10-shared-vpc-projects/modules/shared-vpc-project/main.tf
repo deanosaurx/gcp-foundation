@@ -8,7 +8,7 @@ module "projects" {
   source                         = "terraform-google-modules/project-factory/google"
   version                        = "~> 14.1"
   name                           = each.key
-  folder_id                      = data.tfe_outputs.bootstrap.values.folders[each.value.folder].folder_id
+  folder_id                      = 683780541815
   random_project_id              = true
   enable_shared_vpc_host_project = true
   org_id                         = var.org_id
