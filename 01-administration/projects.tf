@@ -6,7 +6,7 @@ module "org_audit_logs_project" {
   name                    = "central-audit-logging"
   org_id                  = var.org_id
   billing_account         = var.billing_account_id
-  folder_id               = data.tfe_outputs.bootstrap.values.folders["kyndryl-admin"].folder_id
+  folder_id               = 2988491520
   activate_apis           = ["logging.googleapis.com", "bigquery.googleapis.com", "billingbudgets.googleapis.com"]
 
   labels = {
@@ -28,7 +28,7 @@ module "billing_logs_project" {
   name                    = "billing-logs"
   org_id                  = var.org_id
   billing_account         = var.billing_account_id
-  folder_id               = data.tfe_outputs.bootstrap.values.folders["kyndryl-admin"].folder_id
+  folder_id               = 2988491520
   activate_apis           = ["logging.googleapis.com", "bigquery.googleapis.com", "billingbudgets.googleapis.com"]
 
   labels = {
