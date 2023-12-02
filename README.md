@@ -1,5 +1,5 @@
-# acme-foundations
-Example terraform foundation for imaginary ACME organization based on https://cloud.google.com/docs/terraform/best-practices-for-terraform
+# gcp-foundations
+Example terraform foundation for imaginary organization based on https://cloud.google.com/docs/terraform/best-practices-for-terraform
 This example repository shows how you can deploy foundation resources (folders, projects, VPCs, etc.) in an organization.
 This is a `green field` type of deployment that assumes that you are starting off with an empty organization and
 a superadmin user. The goal of this repo is to deploy and manage all the resources using [Terraform Cloud](https://app.terraform.io/)
@@ -7,7 +7,7 @@ but the code can be easily adjusted for `Terraform Enterprise` as well.
 
 Deployed architecture is simplified Dual SVPC architecture described in the [CFT terraform-example-foundation](https://github.com/terraform-google-modules/terraform-example-foundation)
 This terraform code will deploy the following infrastructure:
-![](docs/ACME-Foundation.png)
+![](docs/GCP-Foundation.png)
 
 # Use Cases
 * You can use this project to bootstrap your new GCP organization with GCP recommended best practices
