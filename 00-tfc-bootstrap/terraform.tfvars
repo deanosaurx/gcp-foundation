@@ -1,10 +1,10 @@
-bootstrap_folder_name = "TFC-bootstrap"
+bootstrap_folder_name = "TFC-bootstrap2"
 folders = {
-  admin  = "kyndryl-admin"
-  dev    = "kyndryl-dev",
-  stg    = "kyndryl-stg",
-  prd    = "kyndryl-prd",
-  shared = "kyndryl-shared-services"
+  admin  = "dinodean-admin"
+  dev    = "dinodean-dev",
+  stg    = "dinodean-stg",
+  prd    = "dinodean-prd",
+  shared = "dinodean-shared-services"
 }
 terraform_service_accounts = {
   "tf-admin" = {
