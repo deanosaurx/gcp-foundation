@@ -3,7 +3,7 @@ module "org_audit_logs_project" {
   version                 = "~> 14.1"
   random_project_id       = true
   default_service_account = "deprivilege"
-  name                    = "central-audit-logging"
+  name                    = "central-logging"
   org_id                  = var.org_id
   billing_account         = 01AFEF-F3A912-99B8A4
   folder_id               = data.tfe_outputs.bootstrap.values.folders["admin"].folder_id
@@ -25,7 +25,7 @@ module "billing_logs_project" {
   version                 = "~> 14.1"
   random_project_id       = true
   default_service_account = "deprivilege"
-  name                    = "billing-logs"
+  name                    = "billing-logging"
   org_id                  = var.org_id
   billing_account         = 01AFEF-F3A912-99B8A4
   folder_id               = data.tfe_outputs.bootstrap.values.folders["admin"].folder_id
