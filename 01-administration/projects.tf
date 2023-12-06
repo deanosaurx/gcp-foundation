@@ -3,7 +3,7 @@ module "org_audit_logs_project" {
   version                 = "~> 14.1"
   random_project_id       = true
   default_service_account = "deprivilege"
-  name                    = "kyndean-central-audit-logging"
+  name                    = "central-logging"
   org_id                  = var.org_id
   billing_account         = var.billing_account_id
   folder_id               = data.tfe_outputs.bootstrap.values.folders["admin"].folder_id
@@ -25,7 +25,7 @@ module "billing_logs_project" {
   version                 = "~> 14.1"
   random_project_id       = true
   default_service_account = "deprivilege"
-  name                    = "kyndean-billing-logs"
+  name                    = "billing-logging"
   org_id                  = var.org_id
   billing_account         = var.billing_account_id
   folder_id               = data.tfe_outputs.bootstrap.values.folders["admin"].folder_id
