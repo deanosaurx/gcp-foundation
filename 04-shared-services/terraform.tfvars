@@ -33,32 +33,32 @@ projects = {
 
 private_dns = {
   dev = {
-    domain  = "dev.acme.private."
+    domain  = "dev.dino.private."
     vpc     = "dns-hub"
     project = "common-services"
   }
   restricted-dev = {
-    domain  = "restricted-dev.acme.private."
+    domain  = "restricted-dev.dino.private."
     vpc     = "dns-hub"
     project = "common-services"
   }
   stg = {
-    domain  = "stg.acme.private."
+    domain  = "stg.dino.private."
     vpc     = "dns-hub"
     project = "common-services"
   }
   restricted-stg = {
-    domain  = "restricted-stg.acme.private."
+    domain  = "restricted-stg.dino.private."
     vpc     = "dns-hub"
     project = "common-services"
   }
   prd = {
-    domain  = "prd.acme.private."
+    domain  = "prd.dino.private."
     vpc     = "dns-hub"
     project = "common-services"
   }
   restricted-prd = {
-    domain  = "restricted-prd.acme.private."
+    domain  = "restricted-prd.dino.private."
     vpc     = "dns-hub"
     project = "common-services"
   }
