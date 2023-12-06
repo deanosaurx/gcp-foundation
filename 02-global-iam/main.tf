@@ -40,7 +40,7 @@ module "audit-iam-bindings" {
 module "cloud-billing-iam-bindings" {
   source               = "terraform-google-modules/iam/google//modules/projects_iam"
   version              = "~> 7.4.1"
-  projects             = [data.tfe_outputs.admin.values.projects["billing-logs"].project_id]
+  projects             = [data.tfe_outputs.admin.values.projects["kyndean-bill-logs"].project_id]
   bindings             = var.billing_project_bindings
   conditional_bindings = var.billing_project_conditional_bindings
   mode                 = "additive"
