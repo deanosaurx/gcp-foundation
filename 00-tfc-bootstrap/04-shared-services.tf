@@ -16,12 +16,12 @@ resource "tfe_workspace" "shared-services" {
   }
 }
 
-resource "tfe_workspace_variable_set" "dino-shared-services" {
+resource "tfe_workspace_variable_set" "shared-services" {
   variable_set_id = tfe_variable_set.gcp-org-data.id
   workspace_id    = tfe_workspace.shared-services.id
 }
 
-resource "tfe_workspace_variable_set" "shared-services-wif" {
+resource "tfe_workspace_variable_set" "services-wif" {
   variable_set_id = tfe_variable_set.workload-identity.id
   workspace_id    = tfe_workspace.shared-services.id
 }
