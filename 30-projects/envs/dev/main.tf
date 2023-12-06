@@ -48,7 +48,7 @@ module "projects" {
         }
       ]
       vpc_service_control_attach_enabled = true
-      access_context_manager_policy_name = "acme-policy"
+      access_context_manager_policy_name = "kyndean-policy"
       vpc_service_control_name           = "restricted-shared-network"
       labels = {
         environment       = "dev"

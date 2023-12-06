@@ -3,7 +3,7 @@
 # projects, etc.
 
 folders_iam = {
-  # Bindings for the acme-dev folder
+  # Bindings for the kyndean-dev folder
   "dev" = {
     bindings = {
         "roles/browser" = [
@@ -24,7 +24,7 @@ folders_iam = {
 #}
 #
 #folders_iam = {
-#  # Bindings for the acme-dev folder
+#  # Bindings for the kyndean-dev folder
 #  "dev" = {
 #    bindings = {
 #      "roles/browser" = [
@@ -33,7 +33,7 @@ folders_iam = {
 #    }
 #    conditional_bindings = []
 #  }
-#  # binding for the acme-stg folder
+#  # binding for the kyndean-stg folder
 #  "stg" = {
 #    bindings = {
 #      "roles/browser" = [
@@ -42,7 +42,7 @@ folders_iam = {
 #    }
 #    conditional_bindings = []
 #  }
-#  # Bindings to the acme-prd folder
+#  # Bindings to the kyndean-prd folder
 #  "prd" = {
 #    bindings = {
 #      "roles/browser" = [
@@ -51,7 +51,7 @@ folders_iam = {
 #    }
 #    conditional_bindings = []
 #  }
-#  # Bindings for the acme-shared folder
+#  # Bindings for the kyndean-shared folder
 #  "shared" = {
 #    bindings = {
 #      "roles/browser" = [

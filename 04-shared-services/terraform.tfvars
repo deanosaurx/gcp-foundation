@@ -2,7 +2,7 @@ projects = {
   common-services = {
     labels = {
       environment       = "shared"
-      application_name  = "dino-common-services"
+      application_name  = "kyndean-common-services"
       billing_code      = "0001"
       primary_contact   = "example1"
       secondary_contact = "example2"
@@ -33,33 +33,33 @@ projects = {
 
 private_dns = {
   dev = {
-    domain  = "dev.dino.private."
+    domain  = "dev.kyndean.private."
     vpc     = "dns-hub"
-    project = "dino-common-services"
+    project = "kyndean-common-services"
   }
   restricted-dev = {
-    domain  = "restricted-dev.dino.private."
+    domain  = "restricted-dev.kyndean.private."
     vpc     = "dns-hub"
-    project = "dino-common-services"
+    project = "kyndean-common-services"
   }
   stg = {
-    domain  = "stg.dino.private."
+    domain  = "stg.kyndean.private."
     vpc     = "dns-hub"
-    project = "dino-common-services"
+    project = "kyndean-common-services"
   }
   restricted-stg = {
-    domain  = "restricted-stg.dino.private."
+    domain  = "restricted-stg.kyndean.private."
     vpc     = "dns-hub"
-    project = "dino-common-services"
+    project = "kyndean-common-services"
   }
   prd = {
-    domain  = "prd.dino.private."
+    domain  = "prd.kyndean.private."
     vpc     = "dns-hub"
-    project = "dino-common-services"
+    project = "kyndean-common-services"
   }
   restricted-prd = {
-    domain  = "restricted-prd.dino.private."
+    domain  = "restricted-prd.kyndean.private."
     vpc     = "dns-hub"
-    project = "dino-common-services"
+    project = "kyndean-common-services"
   }
 }

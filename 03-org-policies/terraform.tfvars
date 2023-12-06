@@ -1,4 +1,4 @@
-domains_to_allow                    = ["dinodean.com"]
-essential_contacts_domains_to_allow = ["@dinodean.com"]
-policy_name                         = "dino-policy"
+domains_to_allow                    = ["kyndean.com"]
+essential_contacts_domains_to_allow = ["@kyndean.com"]
+policy_name                         = "kyndean-policy"
 

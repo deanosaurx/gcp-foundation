@@ -20,7 +20,7 @@ module "shared_vpcs" {
       host_project               = "shared-vpc-dev"
       private_service_cidr       = "10.16.64.0/21"
       private_service_connect_ip = "10.2.64.5"
-      domain                     = "dev.acme.private."
+      domain                     = "dev.kyndean.private."
       subnets = [
         {
           subnet_name           = "base-primary"
@@ -68,8 +68,8 @@ module "shared_vpcs" {
       host_project                       = "restricted-shared-vpc-dev"
       private_service_cidr               = "10.24.64.0/21"
       private_service_connect_ip         = "10.10.64.5"
-      domain                             = "restricted-dev.acme.private."
-      access_context_manager_policy_name = "acme-policy"
+      domain                             = "restricted-dev.kyndean.private."
+      access_context_manager_policy_name = "kyndean-policy"
       vpc_access_members                 = ["serviceAccount:${local.self_sa}"]
       subnets = [
         {
