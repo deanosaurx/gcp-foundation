@@ -12,7 +12,7 @@ module "projects" {
   random_project_id              = true
   enable_shared_vpc_host_project = each.value.enable_shared_vpc_host_project
   org_id                         = var.org_id
-  billing_account                = var.billing_account_id
+  billing_account                = "01F4EF-8003B4-52BD98"
   activate_apis                  = each.value.activate_apis
   labels                         = each.value.labels
   default_service_account        = "deprivilege"
