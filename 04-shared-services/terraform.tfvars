@@ -35,31 +35,31 @@ private_dns = {
   dev = {
     domain  = "dev.dino.private."
     vpc     = "dns-hub"
-    project = "common-services"
+    project = "dino-common-services"
   }
   restricted-dev = {
     domain  = "restricted-dev.dino.private."
     vpc     = "dns-hub"
-    project = "common-services"
+    project = "dino-common-services"
   }
   stg = {
     domain  = "stg.dino.private."
     vpc     = "dns-hub"
-    project = "common-services"
+    project = "dino-common-services"
   }
   restricted-stg = {
     domain  = "restricted-stg.dino.private."
     vpc     = "dns-hub"
-    project = "common-services"
+    project = "dino-common-services"
   }
   prd = {
     domain  = "prd.dino.private."
     vpc     = "dns-hub"
-    project = "common-services"
+    project = "dino-common-services"
   }
   restricted-prd = {
     domain  = "restricted-prd.dino.private."
     vpc     = "dns-hub"
-    project = "common-services"
+    project = "dino-common-services"
   }
 }
