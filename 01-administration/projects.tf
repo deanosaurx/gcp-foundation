@@ -5,7 +5,7 @@ module "org_audit_logs_project" {
   default_service_account = "deprivilege"
   name                    = "central-audit-logging"
   org_id                  = var.org_id
-  billing_account         = var.billing_account_id
+  billing_account         = 01AFEF-F3A912-99B8A4
   folder_id               = data.tfe_outputs.bootstrap.values.folders["admin"].folder_id
   activate_apis           = ["logging.googleapis.com", "bigquery.googleapis.com", "billingbudgets.googleapis.com"]
 
@@ -27,7 +27,7 @@ module "billing_logs_project" {
   default_service_account = "deprivilege"
   name                    = "billing-logs"
   org_id                  = var.org_id
-  billing_account         = var.billing_account_id
+  billing_account         = 01AFEF-F3A912-99B8A4
   folder_id               = data.tfe_outputs.bootstrap.values.folders["admin"].folder_id
   activate_apis           = ["logging.googleapis.com", "bigquery.googleapis.com", "billingbudgets.googleapis.com"]
 
