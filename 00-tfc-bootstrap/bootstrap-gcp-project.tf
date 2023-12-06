@@ -1,7 +1,7 @@
 module "bootstrap_project" {
   source                      = "terraform-google-modules/project-factory/google"
   version                     = "~> 14.1"
-  name                        = "tfc-bootstrap"
+  name                        = "dino-bootstrap"
   random_project_id           = true
   disable_services_on_destroy = false
   folder_id                   = google_folder.bootstrap.id
